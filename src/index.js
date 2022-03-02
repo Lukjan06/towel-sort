@@ -4,8 +4,9 @@
 module.exports = function towelSort (matrix) {
 
    let result=[];
-    /*if (matrix.length === 0  && matrix === [] || matrix !==[]) {
-        return [];}*/
+   if (arguments.length === 0) {
+        return [];
+    }
 
     for(let i = 0; i < matrix.length; i++) {
            
@@ -26,5 +27,5 @@ module.exports = function towelSort (matrix) {
 }
 
 
-
+//доделать при пустом параметре ф-ции выводить []
   
